@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <style>
+        h1{margin-left: 10px; margin-right: auto;margin-top: auto;width: 180px;}
+        .container{background-color: rgb(139, 71, 71);margin-left: auto; margin-right: auto;
+            margin-top: 200px; width: 180px;border-radius: 10px;box-shadow: 6px 6px 6px black;}
+
+        button{color: rgb(0, 0, 0);margin: 5px; width: 30px;border-radius: 10px;}
+        input{width: 150px;margin-left: 10px;border-radius: 10px;border-color: black;}
+        .display{color: black;}
+        input::placeholder{color: black;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form action name="calculo">
+                <h1>calculadora</h1>
+                <input type="text" id="display" class="display" placeholder="0" disabled="disabled">
+                <div class="row">
+                    <button onclick="limpar()" type="button">C</button>
+                    <button onclick="save()" type="button">S</button>
+                    <button onclick="memo()" type="button">M</button>
+                </div>
+                <div class="row">
+                    <button onclick="adicionar(7)" type="button">7</button>
+                    <button onclick="adicionar(8)" type="button">8</button>
+                    <button onclick="adicionar(9)" type="button">9</button>
+                    <button onclick="adicionar('-')" type="button">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="adicionar(4)" type="button">4</button>
+                    <button onclick="adicionar(5)" type="button">5</button>
+                    <button onclick="adicionar(6)" type="button">6</button>
+                    <button onclick="adicionar('+')" type="button">+</button>
+                </div>
+                    <div class="row">
+                    <button onclick="adicionar(1)" type="button">1</button>
+                    <button onclick="adicionar(2)" type="button">2</button>
+                    <button onclick="adicionar(3)" type="button">3</button>
+                    <button onclick="adicionar('*')" type="button">*</button>
+                </div>
+                <div class="row">
+                    <button onclick="calcular()" type="button">=</button>
+                    <button onclick="adicionar(0)" type="button">0</button>
+                    <button onclick="adicionar('.')" type="button">.</button>
+                    <button onclick="adicionar('/')" type="button">/</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="calculo.js"></script>
+</body>
+</html>
