@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <style>
+        body{
+            background-image: url(salada.jpg);
+        }
+        .container{
+            font-family: Impact, fantasyImpact;
+            text-align: center;
+            background-color: rgba(127, 255, 212, 0.671);
+            width: 250px ;flex: auto;
+            height: auto;
+            margin: auto;
+            border-radius: 20px
+        }
+        .digita{
+            color: rgb(0, 0, 0);
+            border-color: black;
+            font-family: Impact, fantasyImpact;
+            font-size: 20px;
+            background-color: rgba(255, 228, 196, 0.37);
+            margin-top: 5%;
+            height: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        input::placeholder{
+            opacity: 20;
+            font-family: Impact, fantasy;
+            color: rgba(165, 42, 42, 0.377);
+            opacity: initial;
+        }
+        #soma{color: brown;font-family: Impact, fantasyImpact;
+            margin-top: 15px;
+            background-color: rgba(255, 228, 196, 0.329);
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        
+        #sexo{display: block;
+            position: relative;
+            }
+        #sexo input[type='radio']{
+            display: none;
+        }
+        #sexo label,  .group-radio label::before{
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+            border-radius: 5px;
+            border: 2px black;
+        }     
+        
+        #sexo input[type='radio']:checked + label::before{
+            color: brown;
+            content: "✓";
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 10px;
+        }
+        .res{
+            font-family: Impact, fantasyImpact;
+            text-align: center;
+            font-size: large;
+            background-color: rgba(127, 255, 212, 0.671);
+            width: 250px ;flex: auto;
+            height: auto;
+            margin: auto;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        #resposta{
+            font-family: Impact, fantasyImpact;
+            text-align: center;
+            font-size: larger;
+            
+            width: 250px ;flex: auto;
+            height: auto;
+            margin: auto;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        #resp{
+            font-size: 40px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+                <h1>Calculadora IMC</h1>
+        </div>
+        <form id="sexo">
+            <input type="radio" id="homem" name="sex" value="H" checked>
+            <label for="homem">HOMEM</label>
+            <input type="radio" id="mulher" name="sex" value="M">
+            <label for="mulher">MULHER</label>
+        </form>
+        <div class="digitar">
+            <input type="number" id="altura" class="digita" autocomplete="off" placeholder="ALTURA">
+            <input type="number" id="peso" class="digita" autocomplete="off" placeholder="PESO">
+            <input type="number" id="idade" class="digita" autocomplete="off" placeholder="IDADE">
+        
+        </div>
+        <div class="digitar">
+            <button onclick="somar()" type="submit" id="soma">SOMAR</button>
+        </div>
+    </div>
+    <div class="res">
+        <span id="resp"></span>
+        <span id="resposta">
+            
+        </span>
+    </div>
+    <script src="imc.js"></script>
+
+</body>
+</html>
