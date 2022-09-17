@@ -6,7 +6,7 @@ body, html{
 .fundo{
     position: relative;
     background-image: url(imagem.jpg);
-    height: 100%;
+    height: max-content;
     filter: blur(2px);
     -webkit-filter: blur(2px);
     background-position: center;
