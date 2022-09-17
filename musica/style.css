@@ -1,16 +1,17 @@
 body, html{
-    
+    width: 100%;
     height: 100%;
 }
 
 .fundo{
-    position: relative;
+    position: fixed;
     background-image: url(imagem.jpg);
     height: 100%;
+    width: 100%;
     filter: blur(2px);
     -webkit-filter: blur(2px);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
     background-size: cover;
 }
 .corpo{
