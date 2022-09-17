@@ -4,7 +4,7 @@ body, html{
 }
 
 .fundo{
-    position: relative;
+    position: fixed;
     background-image: url(imagem.jpg);
     height: max-content;
     filter: blur(2px);
