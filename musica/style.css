@@ -7,7 +7,7 @@ body, html{
     position: fixed;
     background-image: url(imagem.jpg);
     height: 100%;
-    width: 100%;
+    width: 99%;
     filter: blur(2px);
     -webkit-filter: blur(2px);
     background-position: center;
