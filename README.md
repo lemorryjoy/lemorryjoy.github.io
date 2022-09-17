@@ -8,5 +8,7 @@
 </head>
 <body>
     <a href="https://lemorryjoy.github.io/musica/escola">escola</a>
+    <a href="https://lemorryjoy.github.io/musica/imc">imc</a>
+    <a href="https://lemorryjoy.github.io/musica/calculadora">calculadora</a>
 </body>
 </html>
