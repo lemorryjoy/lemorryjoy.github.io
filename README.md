@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,9 @@
 </head>
 <body>
     <a href="https://lemorryjoy.github.io/musica/escola">escola</a>
+    <br>
     <a href="https://lemorryjoy.github.io/musica/imc">imc</a>
+    <br>
     <a href="https://lemorryjoy.github.io/musica/calculadora">calculadora</a>
 </body>
 </html>
