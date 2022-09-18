@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5% 10%;
+    font-size: large;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.411);
+}
+img{
+    border-radius: 50%;
+}
