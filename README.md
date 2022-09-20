@@ -1,36 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>caio</title>
-    <link rel="stylesheet" href="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/pagina/github.css">  
-</head>
-<body> 
-    <div class="fundo"></div>
-    <div class="container">
-        <div class="foto"><img src="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/pagina/caio.jpg" alt=""></div>
-        <div class="texto">
-            <p>Ola me chamo Caio. <br>
-                Sou estudante independente.
-            </p>
-        </div>
-        <div class="projetos">
-            <button type="button" onclick="project()">Projetos</button>
-        </div>
-        <div class="contatos">
-            <button type="submit">Contatos</button>
-        </div>
-        <div class="pjt">
-            <a href="https://lemorryjoy.github.io/musica/escola" target="_blank">Site: Escola de musica</a><br>
-            <a href="https://lemorryjoy.github.io/calculadora/calculadora" target="_blank">Calculadora de IMC</a><br>
-            <a href="https://lemorryjoy.github.io/calculadora/calculadora" target="_blank">Calculadora</a><br>
-
-            <button type="button" class="x" onclick="sair()">X</button>
-        </div>
-        <div class="cont"></div>
-    </div>
-    <script src="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/pagina/meusite.js"></script>
-</body>
-</html>
+<h1>Caio Alex De Borba</h1>
+    <p>Meus projetos.</p>
+    <a href="">Site de Escola De Musica.</a><br>
+    <a href="">Calculadora</a><br>
+    <a href="">Calculadora de IMC</a><br>
+    <h1>Sobre Mim.</h1>
+    <p>Ola me chamo Caio, sou estudante independente
+        de programação.<br>
+        Tenho conhecimentos em Python e Python orientado
+        a objetos, conhecimentos em<br> banco de dados SQLite
+        e recentimente iniciando em Java-Script juntamente
+        com HTML e Css
+    </p>
+    <h1>meus contatos</h1>
+    <a href="https://wa.me/5547992824501" target="_blank"><img src="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/musica/zap.png" width="50" height="50">
+ <a href="https://mail.google.com/mail/u/caio.alex.borba@gmail.com" target="_blank"><img src="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/musica/kisspng-triangle-text-brand-communication-gmail-5ab07b2c07f0c8.0273654015215153080325.png" width="50" height="50"></a>
+</a>
