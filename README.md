@@ -9,8 +9,8 @@
     <h1>MEUS PROJETOS</h1>
     <a href="https://lemorryjoy.github.io/musica/escola">escola</a>
     <br>
-    <a href="https://lemorryjoy.github.io/imc/imc">imc</a>
+    <a href="https://lemorryjoy.github.io/imc/imc" target="_blank">imc</a>
     <br>
-    <a href="https://lemorryjoy.github.io/calculadora/calculadora">calculadora</a>
+    <a href="https://lemorryjoy.github.io/calculadora/calculadora" target="_blank">calculadora</a>
 </body>
 </html>
