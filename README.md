@@ -13,7 +13,7 @@
             e recentimente iniciando em Java-Script juntamente
             com HTML e Css
         </p>
-         <p>Meus projetos.</p>
+         <h1>Meus projetos.</h1>
         <a href="https://lemorryjoy.github.io/musica/escola.html">Site de Escola De Musica.</a><br>
         <a href="https://lemorryjoy.github.io/calculadora/calculadora.html">Calculadora</a><br>
         <a href="https://lemorryjoy.github.io/imc/imc.html">Calculadora de IMC</a><br>
