@@ -13,9 +13,9 @@ body, html{
     background-position: center;
     background-repeat: no-repeat ;
     background-size: cover;
+    margin: 5%;
 }
 .corpo{
-    margin: 5%;
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.89));
     position: absolute;
     top: 10%;
