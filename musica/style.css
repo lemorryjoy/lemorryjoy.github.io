@@ -12,10 +12,10 @@ body, html{
     -webkit-filter: blur(2px);
     background-position: center;
     background-repeat: no-repeat ;
-    background-size: cover;
-    margin: 5%;
+    background-size: cover;    
 }
 .corpo{
+    right: 20%
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.89));
     position: absolute;
     top: 10%;
