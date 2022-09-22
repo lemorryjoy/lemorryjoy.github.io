@@ -9,9 +9,9 @@
 <body background="black" color="white">
     <h1>Caio Alex De Borba</h1>
     <p>Meus projetos.</p>
-    <a href="">Site de Escola De Musica.</a>
-    <a href="">Calculadora</a>
-    <a href="">Calculadora de IMC</a>
+    <a href="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/musica/escola.html">Site de Escola De Musica.</a><br>
+    <a href="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/calculadora/calculadora.html">Calculadora</a><br>
+    <a href="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/imc/imc.html">Calculadora de IMC</a>
     <h1>Sobre Mim.</h1>
     <p>Ola me chamo Caio, sou estudante independente
         de programação.<br>
