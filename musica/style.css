@@ -18,8 +18,6 @@ body, html{
 .corpo{
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.89));
     position: absolute;
-    top: 10%;
-    left: 20%;
     right: 20%;
     color: white;
     border: 6px solid black; 
