@@ -1,0 +1,63 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.fundo{
+    position: fixed;
+    background-image: url(imagem.jpg);
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+.corpo{
+    background: linear-gradient(-45deg,rgba(0, 0, 0, 0.459),  rgba(0, 0, 0, 0.89)); 
+    position: absolute;
+    left: 20%;
+    margin: auto;
+    animation: gradient 4s ease infinite;
+    background-size: 400% 400%;
+    color: white;
+    border: 6px solid black; 
+    box-shadow: 30px 30px 40px 10px rgba(0, 0, 0, 0.582);
+}
+@keyframes gradient {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+.aulas{
+    position: absolute;
+    left: 40%;
+    font-size: xx-large;
+}
+::marker{
+    color: red;
+}
+.endereço{
+   margin-left: 10px;
+}
+
+.contato{
+    position: absolute;
+    right: 10px;
+    text-align: right;
+}
+.nome{
+    position: absolute;
+    left: 45%;
+    bottom: -10px;
+}
+:link{
+    color: white;
+    
+}
+a:hover{
+    color: red;
+    
+}
