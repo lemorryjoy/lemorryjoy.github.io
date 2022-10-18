@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>caio</title>
-    <link rel="stylesheet" href="github.css">  
+    <link rel="stylesheet" href="minhapagina.css">
 </head>
-<body> 
-    <div class="fundo"></div>
+<body>
     <div class="container">
-        <div class="foto"><img src="caio.jpg" alt=""></div>
-        <div class="texto">
-            <p>Ola me chamo Caio. <br>
-                Sou estudante independente.
-            </p>
+        <div class="text">
+            <h1>Sobre Mim.</h1>
+            Ola me chamo Caio, sou estudante independente de programação.<br>
+            Tenho conhecimentos em Python e Python orientado a objetos,<br> conhecimentos
+            em banco de dados SQLite e recentimente iniciando em Java-Script <br> juntamente com HTML e Css.
         </div>
-        <div class="projetos">
-            <button type="button" onclick="project()">Projetos</button>
+        <div class="detalhes">
+            <details>
+                <summary>Projetos</summary>
+                <a href="https://lemorryjoy.github.io/musica/escola.html" target="_blank">Site escola de musica</a><br>
+                <a href="https://lemorryjoy.github.io/imc/imc.html" target="_blank">Calculadora</a><br>
+                <a href="https://lemorryjoy.github.io/calculadora/calculadora.html" target="_blank">Calculadora de IMC</a>
+            </details>
+            <details>
+                <summary>Contatos</summary>
+                <p>Me mande um whatsapp</p><a href="https://wa.me/5547992824501" target="_blank"><img src="https://github.com/lemorryjoy/lemorryjoy.github.io/blob/main/musica/zap.png?raw=true" width="50px" height="50px"></a>
+                <p>Ou me escreva um Email.</p>
+                Seu Email:
+                <input type="email" name="destinatario"><br>
+                <textarea name="txt_email" cols="31" rows="10"></textarea>
+                <button type="submit">Enviar</button> 
+            </details> 
         </div>
-        <div class="contatos">
-            <button type="submit">Contatos</button>
-        </div>
-        <div class="pjt">
-            <a href="https://lemorryjoy.github.io/musica/escola" target="_blank">Site: Escola de musica</a><br>
-            <a href="https://lemorryjoy.github.io/calculadora/calculadora" target="_blank">Calculadora de IMC</a><br>
-            <a href="https://lemorryjoy.github.io/calculadora/calculadora" target="_blank">Calculadora</a><br>
-
-            <button type="button" class="x" onclick="sair()">X</button>
-        </div>
-        <div class="cont"></div>
     </div>
-    <script src="meusite.js"></script>
 </body>
 </html>
