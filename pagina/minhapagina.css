@@ -55,44 +55,58 @@ body{
 .projetos{
     display: flex;
     flex-flow: row wrap;
-    height: auto;
     justify-items: center;
     align-items: center;
-    padding-top: 150px;
+    
 }
-.proje{
-    flex: 100%;
+.pro{
+    padding-top: 180px;
     margin-left: 6%;
-   
+    font-size: 25px;
 }
-.proje h2{
-    font-size: 45px;
+.pro h2{
+    text-align: center;
 }
-.proje a{
-    font-size: 22px;
+.card{
+    flex:  10%;
+    margin: 30px;
+    padding-top: 2%;
+    text-align: center; 
+    flex-flow: row wrap;
+}
+.text a{
     text-decoration: none;
     color: black;
+    font-size: 25px;
+    border: solid 3px rgb(0, 40, 151);
+    padding: 8px;
+    border-radius: 10px 5px;
 }
-li{
-    padding: 5px;
+.textocuto{
+    display: none;
+    
 }
-.proje a:hover{
-    color: red;
-    border-bottom: solid 3px black;
+.text:hover .textocuto{
+    display: flex;
+    background-color: rgb(0, 40, 151);
+    margin: 5%;
+    border-radius: 20px;
+    border: solid 2px black;
+    color: white;
+    font-family: arial;
 }
 .footer{
     display: flex;
-    flex-flow: row wrap;
-    height: auto;
+    flex-flow: row wrap;   
     justify-items: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 200px;
 }
-.rodape{
+.rodape{ 
     background: linear-gradient(to top, black, rgb(0, 40, 151));
     height: 150px;
     border-top: solid 6px black;
-    margin-top: 200px;
+    margin-top: 300px;
     color: white;
     text-align: center;
 }
