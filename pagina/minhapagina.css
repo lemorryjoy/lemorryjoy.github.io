@@ -16,6 +16,12 @@ body{
     width: 100%;
     background-color: white;
 }
+@media (max-width: 525px) 
+{
+    .navbar{
+        height: 25%;
+    }
+}
 .logo{
     flex: 20%;
     text-align: left;
