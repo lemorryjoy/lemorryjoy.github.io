@@ -19,7 +19,8 @@ body{
 @media (max-width: 525px) 
 {
     *{
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .navbar{
         height: 25%;
