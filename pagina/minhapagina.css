@@ -6,6 +6,21 @@ body{
     margin: 0;
     font-family: serif;
 }
+@media (max-width: 600px) 
+{
+    .header{
+        width: 525px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar{
+        height: 25%;
+        font-size: 10px;
+    }
+    .navbar h1{
+        font-size: 20px;
+    }
+}
 .navbar{
     height: 15%;
     display: flex;
@@ -15,17 +30,7 @@ body{
     position: fixed;
     width: 100%;
     background-color: white;
-}
-@media (max-width: 525px) 
-{
-    .header{
-        width: 525px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .navbar{
-        height: 25%;
-    }
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.568);
 }
 .logo{
     flex: 20%;
@@ -58,10 +63,13 @@ body{
     font-size: 25px;
     width: 60%;
 }
+.conteudo h2{
+    color: black;
+}
 .conteudo{
     flex: 40%;
     margin-left: 10%;
-    
+    color: rgba(46, 46, 46, 0.89)
 }
 .projetos{
     display: flex;
@@ -89,7 +97,7 @@ body{
     text-decoration: none;
     color: black;
     font-size: 25px;
-    border: solid 3px rgb(0, 40, 151);
+    box-shadow: 0 0  20px 5px rgb(0, 40, 151);
     padding: 8px;
     border-radius: 10px 5px;
 }
@@ -99,10 +107,10 @@ body{
 }
 .text:hover .textocuto{
     display: flex;
-    background-color: rgb(0, 40, 151);
+    background-color: rgb(58, 110, 252);
     margin: 5%;
     border-radius: 20px;
-    border: solid 2px black;
+    box-shadow: 0 0 20px 8px rgb(58, 110, 252);
     color: white;
     font-family: arial;
 }
