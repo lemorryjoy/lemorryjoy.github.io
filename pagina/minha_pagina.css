@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: serif;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.568);
+}
+.logo{
+    flex: 20%;
+    text-align: left;
+    margin-left: 6%;
+    font-size: 20px;
+    text-shadow: red -2px 0, cyan 2px 0;
+    
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px 16px;
+    color: black;
+}
+.menu a:hover{
+    color: red;
+    border-bottom: solid black 3px;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+    padding-top: 120px;
+    font-size: 25px;
+    width: 60%;
+}
+.conteudo h2{
+    color: black;
+}
+.conteudo{
+    flex: 40%;
+    margin-left: 10%;
+    color: rgba(46, 46, 46, 0.89)
+}
+.projetos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+    
+}
+.pro{
+    padding-top: 180px;
+    margin-left: 6%;
+    font-size: 25px;
+}
+.pro h2{
+    text-align: center;
+}
+.card{
+    flex:  10%;
+    margin: 30px;
+    padding-top: 2%;
+    text-align: center; 
+    flex-flow: row wrap;
+}
+.text a{
+    text-decoration: none;
+    text-shadow: red -1px 0, cyan 2px 0;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 10px 5px;
+}
+.textocuto{
+    display: none;
+    
+}
+.text:hover .textocuto{
+    display: flex;
+    background-color: rgba(93, 136, 253, 0.76);
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px rgb(58, 110, 252);
+    color: white;
+    font-family: arial;
+}
+.footer{
+    display: flex;
+    flex-flow: row wrap;   
+    justify-items: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.rodape{ 
+    background: linear-gradient(to top, black, rgb(0, 40, 151));
+    height: 150px;
+    border-top: solid 6px black;
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+}
+.rodape a:hover{
+   border-bottom:solid 10px black;
+}
+.rodape img:hover{
+    filter: drop-shadow(0px 0px 2px white);
+}
